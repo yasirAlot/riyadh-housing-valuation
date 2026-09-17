@@ -18,7 +18,9 @@ The data are public residential transaction records from the Saudi Ministry of J
 
 ## Results
 
-The `results` folder contains the tables produced by the notebook, including model comparisons, error analysis, hedonic coefficients, cross-validation and SHAP summaries. Running the notebook recreates these files, along with the cleaned dataset and trained models, which are not included because of their size.
+The `results` folder contains the tables produced by the notebook, including model comparisons, error analysis, hedonic coefficients, cross-validation and SHAP summaries.
+
+Four files are not included because they exceed GitHub's file size limit: `riyadh_clean.csv`, `model_xgboost.json`, `model_xgboost_tuned.json` and `model_catboost_tuned.cbm`. Running the notebook recreates them.
 
 ## How to run
 
