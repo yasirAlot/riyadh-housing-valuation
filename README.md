@@ -6,6 +6,7 @@ Code for the MSc dissertation comparing hedonic regression, XGBoost and CatBoost
 
 - `project.ipynb`: data cleaning, feature engineering, model training, evaluation and SHAP analysis
 - `requirements.txt`: Python packages used
+- `results/`: output tables reported in the dissertation
 
 ## Data
 
@@ -14,6 +15,10 @@ The data are public residential transaction records from the Saudi Ministry of J
 - `transactions_2020_Q1.xlsx` to `transactions_2023_Q4.xlsx` (16 files)
 - `transactions_2025_Q1.xlsx` to `transactions_2025_Q4.xlsx` (4 files)
 - `indicators_riyadh_2024_Q1.xlsx` to `indicators_riyadh_2024_Q4.xlsx` (4 files, aggregated indicators only, since deal-level records were not published for 2024)
+
+## Results
+
+The `results` folder contains the tables produced by the notebook, including model comparisons, error analysis, hedonic coefficients, cross-validation and SHAP summaries. Running the notebook recreates these files, along with the cleaned dataset and trained models, which are not included because of their size.
 
 ## How to run
 
