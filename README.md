@@ -9,10 +9,11 @@ Code for the MSc dissertation comparing hedonic regression, XGBoost and CatBoost
 
 ## Data
 
-The data are not included in this repository. Download the residential transaction files from the Saudi Ministry of Justice and place them in the same folder as the notebook:
+The data are public residential transaction records from the Saudi Ministry of Justice, included in this repository in the same folder as the notebook:
 
-- `transactions_*.xlsx` (2020–2023 and 2025)
-- `indicators_riyadh_2024_Q1.xlsx` to `indicators_riyadh_2024_Q4.xlsx`
+- `transactions_2020_Q1.xlsx` to `transactions_2023_Q4.xlsx` (16 files)
+- `transactions_2025_Q1.xlsx` to `transactions_2025_Q4.xlsx` (4 files)
+- `indicators_riyadh_2024_Q1.xlsx` to `indicators_riyadh_2024_Q4.xlsx` (4 files, aggregated indicators only, since deal-level records were not published for 2024)
 
 ## How to run
 
