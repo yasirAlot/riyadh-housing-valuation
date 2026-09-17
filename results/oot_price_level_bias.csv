@@ -1,0 +1,5 @@
+﻿model,median_pred_vs_median_actual_pct,direction
+Hedonic OLS (trend),31.945492131874676,over-prices
+Hedonic OLS (no drift),-11.573382898008012,under-prices
+XGBoost,-17.295033783783786,under-prices
+CatBoost,-9.679922667066398,under-prices
